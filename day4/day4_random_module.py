@@ -35,3 +35,27 @@ import random
 #     print("Heads")
 # else:
 #     print("Tails")
+
+# We can also use the choice function to randomly select an item from a list. #
+
+# fruits = ["Apple", "Banana", "Cherry", "Orange", "Grape"]
+# random_fruit = random.choice(fruits)
+# print(random_fruit)
+
+# We can also use the shuffle function to shuffle the items in a list. #
+
+# random.shuffle(fruits)
+# print(fruits)
+
+# We can also use the sample function to select a random sample from a list. #
+
+# random_sample = random.sample(fruits, 2)
+# print(random_sample)
+# Output: ['Banana', 'Cherry'] #
+
+# We can also use the seed function to generate the same random number. #
+
+# random.seed(123)
+# random_integer = random.randint(1, 6)
+# print(random_integer)
+# Output: 6 because the seed function generates the same random number each time it is run. #
